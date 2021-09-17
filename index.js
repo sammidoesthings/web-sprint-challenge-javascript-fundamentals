@@ -17,8 +17,7 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
-
+/* nestedFunction can access the variable internal because the scope of an inside function can reach its containing function. The inside function "inherits" anything within one level of itself, so it has access to that information. You would not be able to call nestedFunction outside of myFunction, though, since this is two levels away and not within the nestedFunction's accessible scope.*/
 
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */
